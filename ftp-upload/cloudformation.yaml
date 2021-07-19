@@ -76,7 +76,7 @@ Resources:
       Properties:
         FunctionName: !Sub ${App}-${Stage}
         Description: Copies new s3 objects to an ftp server
-        Runtime: nodejs10.x
+        Runtime: nodejs14.x
         Handler: lambda.handler
         MemorySize: 128
         Timeout: 300

@@ -69,7 +69,7 @@ Resources:
     Properties:
       FunctionName: !Sub ${App}-${Stage}
       Description: Runs the NLA query against the data lake
-      Runtime: nodejs10.x
+      Runtime: nodejs14.x
       Handler: lambda.handler
       MemorySize: 128
       Timeout: 20
