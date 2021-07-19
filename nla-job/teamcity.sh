@@ -1,8 +1,6 @@
 #!/bin/bash
 set -e
 
-# ensure correct nvm -> npm -> yarn is set up
-nvm use
 npm install -g yarn
 
 yarn install
