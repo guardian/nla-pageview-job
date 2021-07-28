@@ -1,7 +1,7 @@
 {
   "name": "nla-to-s3",
   "engines": {
-    "node": ">=10.0.0"
+    "node": ">=14.17.3"
   },
   "isAwsLambda": true,
   "cloudformation": false,
@@ -9,14 +9,14 @@
   "buildDir": "./target",
   "riffraffFile": "./riff-raff.yaml",
   "dependencies": {
-    "aws-sdk": "2.549.0",
+    "aws-sdk": "2.947.0",
     "ftp": "^0.3.10",
     "moment": "^2.24.0"
   },
   "devDependencies": {
-    "@types/node": "^12.0.7",
+    "@types/node": "^16.3.2",
     "node-riffraff-artefact": "^2.0.2",
-    "typescript": "^3.5.1"
+    "typescript": "^4.3.5"
   },
   "scripts": {
     "clean": "rm -rf target",
