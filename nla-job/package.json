@@ -1,7 +1,7 @@
 {
   "name": "nla-to-s3",
   "engines": {
-    "node": ">=14.17.0"
+    "node": ">=14.17.3"
   },
   "isAwsLambda": true,
   "cloudformation": false,
